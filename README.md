@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a Java Swing application used to manage Spotify tracks and playlists.
+This is a Java Swing desktop application used to manage Spotify tracks and playlists.
 
 ---
 
@@ -23,8 +23,8 @@ This is a Java Swing application used to manage Spotify tracks and playlists.
 ## Technologies
 
 - Java Swing
-- MySQL
 - JDBC
+- MySQL
 - Apache POI
 - JFreeChart
 - JUnit 5
@@ -33,27 +33,59 @@ This is a Java Swing application used to manage Spotify tracks and playlists.
 
 ## Database
 
-Tables used in system:
-
-- users
-- artists
-- albums
-- tracks
-- playlists
-- playlist_tracks
+- MySQL Database
+- Spotify Dataset
 
 ---
 
-## Accounts
+## Project Structure
 
-| Role | Username | Password |
-|------|------|------|
-| ADMIN | admin | 123 |
-| STAFF | staff | 123 |
-| VIEWER | viewer | 123 |
+src/
+├── dao
+├── model
+├── ui
+├── service
+├── export
+├── util
+├── chart
+└── test
+
+---
+
+## JUnit Testing
+
+- testFindAll()
+- testPopularTracks()
+- testSearchTracks()
+- testPagination()
+- testExportExcel()
+
+---
+
+## Concurrency
+
+This project uses SwingWorker to load data in background threads without freezing the UI.
+
+---
+
+## Excel Export
+
+Tracks can be exported to Excel using Apache POI.
+
+Generated file:
+
+tracks.xlsx
+
+---
+
+## GitHub Repository
+
+Public GitHub Repository:
+
+https://github.com/nguyenthihuynhnhuk18-maker/spotify-management-system
 
 ---
 
 ## Author
 
-- Nguyen Thi Huynh Nhu
+Nguyen Thi Huynh Nhu

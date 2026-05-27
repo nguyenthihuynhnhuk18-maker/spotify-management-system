@@ -153,4 +153,5 @@ Nguyen Thi Huynh Nhu## Future Improvements
 
 - Dark mode UI
 - REST API integration
-- Music recommendation system
+- Music recommendation system- Git & GitHub
+- Eclipse IDE

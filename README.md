@@ -141,17 +141,4 @@ _Add screenshots here_
 
 ## Author
 
-Nguyen Thi Huynh Nhu## Future Improvements
-
-- Dark mode UI
-- REST API integration
-- Music recommendation system## Future Improvements
-
-- Dark mode UI
-- REST API integration
-- Music recommendation system## Future Improvements
-
-- Dark mode UI
-- REST API integration
-- Music recommendation system- Git & GitHub
-- Eclipse IDE
+Nguyen Thi Huynh Nhu

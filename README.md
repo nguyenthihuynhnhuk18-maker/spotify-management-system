@@ -1,4 +1,4 @@
-- Music Dashboard# Spotify Desktop Management System
+# Spotify Desktop Management System
 
 ## Introduction
 

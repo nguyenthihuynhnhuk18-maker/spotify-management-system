@@ -2,14 +2,16 @@
 
 ## Introduction
 
-This is a Java Swing desktop application used to manage Spotify tracks and playlists.
+Spotify Desktop Management System is a Java Swing desktop application used to manage Spotify tracks and playlists efficiently.
+
+The system supports CRUD operations, search & filtering, pagination, charts visualization, Excel export, role-based access, and MySQL database integration.
 
 ---
 
 ## Features
 
 - Login Authentication
-- CRUD Tracks
+- CRUD Tracks Management
 - Search & Filter
 - Pagination
 - Export Excel
@@ -33,26 +35,48 @@ This is a Java Swing desktop application used to manage Spotify tracks and playl
 
 ## Database
 
-- MySQL Database
-- Spotify Dataset
+Tables used in the system:
+
+- users
+- artists
+- albums
+- tracks
+- playlists
+- playlist_tracks
 
 ---
 
 ## Project Structure
 
+```text
 src/
-├── dao
-├── model
-├── ui
-├── service
-├── export
-├── util
 ├── chart
-└── test
+├── dao
+├── export
+├── factory
+├── main
+├── model
+├── service
+├── test
+├── ui
+└── util
+```
+
+---
+
+## Accounts
+
+| Role   | Username | Password |
+|--------|----------|----------|
+| ADMIN  | admin    | 123      |
+| STAFF  | staff    | 123      |
+| VIEWER | viewer   | 123      |
 
 ---
 
 ## JUnit Testing
+
+Implemented test cases:
 
 - testFindAll()
 - testPopularTracks()
@@ -74,7 +98,9 @@ Tracks can be exported to Excel using Apache POI.
 
 Generated file:
 
+```text
 tracks.xlsx
+```
 
 ---
 
@@ -83,6 +109,33 @@ tracks.xlsx
 Public GitHub Repository:
 
 https://github.com/nguyenthihuynhnhuk18-maker/spotify-management-system
+
+---
+
+## How to Run
+
+1. Clone the repository
+2. Open project in Eclipse IDE
+3. Import MySQL database
+4. Configure database connection
+5. Run MainFrame.java
+
+---
+
+## Screenshots
+
+### Main Interface
+
+_Add screenshots here_
+
+---
+
+## Future Improvements
+
+- Dark Mode UI
+- Music Recommendation System
+- REST API Integration
+- User Activity Analytics
 
 ---
 
